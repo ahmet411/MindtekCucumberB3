@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json","rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "steps",
-        tags = "@api and @MB3-102",
+        tags = "@regression",
         dryRun = false
 )
 public class Runner {
