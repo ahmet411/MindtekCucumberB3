@@ -107,6 +107,20 @@
                             <goals>
                                 <goal>generate</goal>
                             </goals>
+                                <configuration>
+                                           <projectName>TheDayAfterTomorrow</projectName>
+                                           <!-- output directory for the generated report -->
+                                           <outputDirectory>${project.build.directory}/cucumber-maven-report</outputDirectory>
+                                           <inputDirectory>${project.build.directory}/cucumber-json</inputDirectory>
+                                           <jsonFiles>
+                                               <!-- supports wildcard or name pattern -->
+                                               <param>**/*.json</param>
+                                           </jsonFiles>
+                                           <skippedFails>true</skippedFails>
+                                           <enableFlashCharts>true</enableFlashCharts>
+                                           <buildNumber>10.2.1</buildNumber>
+                                           <parallelTesting>false</parallelTesting>
+                                      </configuration>
                         </execution>
                     </executions>
                 </plugin>
