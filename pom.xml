@@ -117,9 +117,6 @@
                                                <param>**/*.json</param>
                                            </jsonFiles>
                                            <skippedFails>true</skippedFails>
-                                           <enableFlashCharts>true</enableFlashCharts>
-                                           <buildNumber>10.2.1</buildNumber>
-                                           <parallelTesting>false</parallelTesting>
                                       </configuration>
                         </execution>
                     </executions>
