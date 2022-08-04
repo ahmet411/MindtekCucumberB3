@@ -103,12 +103,12 @@
                     <executions>
                         <execution>
                             <id>execution</id>
-                            <phase>test</phase>
+                            <phase>verify</phase>
                             <goals>
                                 <goal>generate</goal>
                             </goals>
                                 <configuration>
-                                           <projectName>TheDayAfterTomorrow</projectName>
+                                           <projectName>MindtekCucumberB3</projectName>
                                            <!-- output directory for the generated report -->
                                            <outputDirectory>${project.build.directory}/cucumber-maven-report</outputDirectory>
                                            <inputDirectory>${project.build.directory}/cucumber-json</inputDirectory>
