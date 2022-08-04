@@ -111,7 +111,7 @@
                                            <projectName>TheDayAfterTomorrow</projectName>
                                            <!-- output directory for the generated report -->
                                            <outputDirectory>${project.build.directory}/cucumber-maven-report</outputDirectory>
-                                           <inputDirectory>${project.build.directory}/cucumber</inputDirectory>
+                                           <inputDirectory>${project.build.directory}/cucumber-json</inputDirectory>
                                            <jsonFiles>
                                                <!-- supports wildcard or name pattern -->
                                                <param>**/*.json</param>
