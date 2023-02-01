@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","json:target/cucumber.json"},
         features = "src/test/resources/features",
         glue = "steps",
-        tags = "@api and @MB3-102",
+        tags = "@smoke",
         dryRun = false
 )
 public class Runner {
